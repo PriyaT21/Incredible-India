@@ -1,0 +1,261 @@
+body{
+  margin-top: 70px;
+  background-color:#f2f2f2;
+
+  
+}
+
+.logo img{
+    margin-left: 35%;
+    margin-top: -20px;
+    border-style: none;
+    width: 350px;
+    height: 70px;
+  }
+.navbar{
+  margin: 0%;
+
+}
+ul {
+  font-size: larger;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:grey;
+}
+
+.active {
+  background-color: #04AA6D;
+}  
+
+.h1name{
+  
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 3.4em;
+  margin-top: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-left: 50px; 
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  height:min-content;
+  
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display:none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 6px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.para{
+margin-top: 10px;
+margin-left: 55px;
+margin-right: 55px;
+text-align: center;
+display: block;
+font-size: 1.3em;
+color: #5a5a5a;
+font-family: sans-serif;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+
+
+}
+.h2name{
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 2.4em;
+  margin-top: 10px;
+  text-align: center;
+  font-family: sans-serif;
+
+
+
+}
+.para2{
+margin-top: 10px;
+margin-left: 55px;
+margin-right: 55px;
+text-align: center;
+display: block;
+font-size: 1.3em;
+color: #5a5a5a;
+font-family: sans-serif;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+}
+.h3name{
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 2.4em;
+  margin-top: 10px;
+  margin-bottom: -10;
+  text-align: center;
+  font-family: sans-serif;
+}
+.p{
+margin-top: 10px;
+margin-left: 55px;
+margin-right: 55px;
+text-align: center;
+display: block;
+font-size: 1.3em;
+color: #5a5a5a;
+font-family: sans-serif;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+}
+main{
+  margin-left: 120px;
+  
+}
+
+.box{
+  display: block;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  padding-left: 12px;
+  overflow: hidden;
+  border-radius: 5px;
+  
+
+}
+.box img{
+  width: 100%;
+  width: 320px;
+  height: 200px;
+  border-radius: 5px;
+ }
+ .box img:hover{
+   transform: scale(2,2);
+   transition: -3s;
+   border-radius: 5px;
+ }
+ .text{
+   font-size: 20px;
+   color: black;
+   text-align: center;
+ }
+
+ 
+   
+ .footer {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:darkcyan;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+ }
+
